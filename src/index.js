@@ -1,3 +1,4 @@
 module.exports = function solveSudoku(matrix) {
-  // your solution
+ let veryStrangeResult = matrix.map(r => [...r.map(i => i === 0 ? [] : i)]);
+ return veryStrangeResult;
 }
